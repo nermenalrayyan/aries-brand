@@ -1,0 +1,239 @@
+*, html, body
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ginora Sans";
+}
+
+html
+{
+  font-size: 25px;
+}
+
+html, body
+{
+  overflow-x: hidden;
+}
+
+body
+{
+  background-color: #1d1d1d;
+}
+
+// .title-subtitle,
+// .funding1,
+// .funding2,
+// .inve-portfolio,
+// .team,
+// .jobs,
+// footer
+// {
+//   display: none;
+// }
+
+.container
+{
+  width: 1100px;
+  height: 100%;
+  // margin: 0 auto;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  border: 1px solid;
+}
+
+// section
+// {
+//   height: 30rem;
+//   // margin: 10% 0;
+// }
+
+h2, h3, h4, label
+{
+  color: #F4F4F4;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+h2
+{
+  font-size: 2rem;
+  // width: 43%;
+}
+
+h3
+{
+  font-size: 2em;
+  width: 35%;
+  margin: -27px 0;
+}
+
+h6
+{
+  color: rgba(184, 184, 184, 0.7);
+  font-size: 85%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+ul
+{
+  list-style-type: none;
+  padding: 0;
+}
+
+.hr-small
+{
+  width: 100%;
+  height: 2px;
+  border: 0;
+  background: url(../images/down-line.png);
+}
+
+.hr-medium
+{
+  width: 1160px;
+  height: 2px;
+  border: 0;
+  background: url(../images/line-medium.png);
+}
+
+.hr-long
+{
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background: url(../images/line-long.png);
+}
+
+p
+{
+  color: #919191;
+  font-size: 0.6rem;
+  text-transform: capitalize;
+  font-family: "Gilroy-Regular" !important;
+  // width: 40%;
+  margin: 5% 0;
+  line-height: 1.6;
+}
+
+a, button
+{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 1s ease;
+
+
+  // .arrow-right
+  // {
+  //   position: absolute;
+  //   margin-left: 5px;
+  //   margin-bottom: 0.2em;
+  //   width: 5%;
+
+
+  //   &:hover
+  //   {
+  //    animation: moveright 2s ease infinite;
+  //   }
+  // }
+  
+  &:hover
+  {
+    color: #5a93b3;
+  }
+}
+
+a, button, li, .view-link
+{
+  cursor: pointer;
+}
+
+.Primary-color
+{
+  color: #7a86c6;
+}
+
+.Secondary-color
+{
+  color: #5CE4CF;
+}
+
+.view-link 
+{
+  display: flex;
+  align-items: center;
+  // position: relative;
+  // width: 113em;
+
+
+
+  // transition: all 1s ease;
+
+  a 
+  {
+    font-size: 0.6rem;
+    margin-right: 10px;
+  }
+
+  .arrow-right
+  {
+    width: 25px;
+    height: 11px;
+
+    // position: absolute;
+    // margin-left: 4.5%;
+    // margin-top: -21px;
+
+
+
+
+    // animation: moveright 2s ease infinite;
+    // width: 5%;
+
+    // &:hover
+    // {
+    //   // margin-left: 0 !important;
+    //   animation: moveright 2s ease infinite;
+    // }
+  }
+}
+
+
+.program,
+.funding1,
+.funding2
+{
+  // position: relative;
+
+  // &::before
+  // {
+  //   // content: "";
+  //   // position: absolute;
+  //   // background-repeat: no-repeat;
+  //   // width: 100%;
+  //   // height: 200%;
+  //   // z-index: -1;
+  // }
+
+  // &::after
+  // {
+  //   // content: "";
+  //   // position: absolute;
+  //   // background-repeat: no-repeat;
+
+  //   // width: 100%;
+  //   // height: 100%;
+  //   // z-index: -1;
+  // }
+
+  .program-items,
+  .funding1-items,
+  .funding2-items
+  {
+    // position: absolute;
+  }
+}

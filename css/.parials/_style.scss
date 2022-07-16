@@ -1,0 +1,684 @@
+// Start Header
+header
+{
+  // margin-top: 20px;
+  // font-size: 20px;
+
+  nav
+  {
+    background-color: #232526;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    // padding: 10px 50px;
+    // height: 65px;
+
+    a
+    {
+      // color:#F4F4F4;
+      color: #b2b2b9;
+
+      margin: 0 10px;
+      // font-family: "Gilroy-Regular";
+      // font-size: 0.6rem;
+      font-size: 15px;
+      font-weight: 500;
+
+    }
+
+    // .vector
+    // {  
+    //   margin-left: -9px;
+    // }
+
+    .logo
+    {
+      // order: 2;
+
+      img
+      {
+        // width: 4rem;
+        width: 90px;
+      }
+    }
+
+    // .nav-left
+    // {
+    //   // order: 1;
+    // }
+
+    .nav-right
+    {
+      // margin-right: -13.4rem;
+      margin-right: -349px;
+      // order: 3;
+    }
+
+    .toggleMenu
+    {
+      padding-top: 3px;
+      // order: 4;
+    }
+  }
+}
+// End Header
+
+// Start Intro
+.intro
+{
+  // height: 25rem;
+  background-image: url(../images/grad-background.svg);
+  background-size: 43rem;
+  // background-size: 93%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  align-items: center;
+  // background-size: 100vw;
+  // font-size: 32px;
+
+
+  .intro-items
+  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: -2rem;
+    height: 25rem;
+
+    h1
+    {
+      // position: absolute;
+      // top: 18%;
+      // left: 34%;
+      // width: 35%;
+
+      // margin-top: 6rem;
+      color: #F4F4F4;
+      font-size: 2.3rem;
+      text-transform: capitalize;
+      margin: 0 0 1.67rem 0 !important;
+      // margin-bottom: 2.67em;
+
+
+      span
+      {
+        display: block;
+        // font-size: 6rem;
+        background: linear-gradient(45deg, #79b0f9, #7f95ff, #30dadd);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        // display: inline-block
+      }
+    }
+  
+    img
+    {
+      position: absolute;
+      // top: 72%;
+      // left: 50%;
+      animation: movedown 2s ease infinite; 
+      width: 0.5rem;
+    }
+  }
+}
+// End Intro
+
+
+// Start Program
+.program
+{
+  // height: 107vh;
+  margin: 5% 0 8% 0;
+  width: 100%;
+
+  // &::before
+  // {
+  //   top: 1%;
+  //   left: 25%;
+  //   background-image: url(../images/big-centered-image.png);
+  // }
+
+  // &::after
+  // {
+  //   top: 14%;
+  //   left: 68%;
+  //   background-image: url(../images/small-right-image.png);
+  // }
+
+  .program-items
+  {
+    // bottom: -46%;
+    // left: 14%;
+
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+
+
+    display: grid;
+    // grid-template-columns: 4fr 1fr 16fr 1fr 4fr;
+    grid-template-columns: 1fr 107px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
+    grid-template-rows: 55px 50px 50px 50px 50px 78px 50px 50px 50px 50px 50px 50px;
+    
+    width: 100%;
+
+    .text-items
+    {
+      // position: absolute;
+      // top: 12rem;
+      // left: 1rem;
+
+      // width: 17em;
+
+      // height: 11em;
+
+      grid-column: 2 / 7;
+      grid-row: 7 / 7;
+
+      h2
+      {        
+        font-size: 1.6rem;
+      }
+
+      p
+      {
+        margin: 55px 0;
+      }
+
+      .view-link
+      {
+        a
+        {
+          font-size: 0.6rem;
+        }
+      }
+    }
+
+    // .imgs-items
+    // {
+
+
+
+    //   // max-width: 85%;
+
+    //   // grid-template: repeat(8, [row] 61px 1fr) / repeat(8, [col] 133px 1fr);
+      
+    //   // grid-template: repeat(12, [row] 30px 1fr)/repeat(12, [col] 30px 1fr);
+    
+    // }
+
+    .program-img1
+    {
+      grid-column: 3 / 11;
+      grid-row: 1 / 2;
+    }
+
+    .program-img2
+    {
+      grid-column: 13 / 10;
+      grid-row: 2 / 2;
+    }
+  }
+}
+// End Program
+
+
+// Start Title-subtitle
+.title-subtitle
+{
+  .title-subtitle-items
+  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 2rem;
+
+    h2
+    {
+      width: 11em;
+    }
+
+    p
+    {    
+      // font-size: .6rem;
+      width: 31.2em;
+    }
+  }
+}
+// End Title-subtitle
+
+
+
+// Start Funding 1 
+.funding1
+{
+  height: 30rem;
+  margin-bottom: 5%;
+
+  &::before
+  {
+    left: 17.5%;
+    background-image: url(../images/Rectangle-137.png);
+    width: 100%;
+    height: 200%;
+  }
+
+  &::after
+  {
+    top: 8%;
+    right: -35%;
+    background-image: url(../images/Rectangle-136.png);
+    width: 100%;
+    height: 100%;
+  }
+
+  .funding1-items
+  {
+    top: 11%;
+    right: -22%;
+  }
+}
+// End Funding 1
+
+
+// Start Funding 2
+.funding2
+{
+  height: 30rem;
+  margin-bottom: 12%;
+
+  &::before
+  {
+    left: 55%;
+    background-image: url(../images/stefan-cosma-GVlcXhQejA8-unsplash1.png);
+
+  }
+
+  &::after
+  {
+    top: 7%;
+    right: -49%;
+    background-image: url(../images/maximalfocus-naSAHDWRNbQ-unsplash1.png);
+  }
+
+  .funding2-items
+  {
+    top: 11%;
+    right: 17%;
+  }
+}
+// End Funding 2
+
+
+// Start investment-portfolio
+.inve-portfolio
+{
+  margin-bottom: 13%;
+
+  .inve-portfolio-items
+  {
+    h2
+    {
+      width: 50%;
+    }
+
+    ul
+    {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 85px 100px;
+      align-items: center;
+      justify-items: center;
+      margin-top: 7%;
+
+      li
+      {
+        list-style-type: none;
+        padding: 20px;
+
+        img
+        {
+          width: 22px;
+          margin-right: 3px;
+          // border: 1px solid;
+        }
+        
+        a
+        {
+          color: #B8B8B8;
+          text-transform: uppercase;
+          font-size: 27px;
+          font-family: "Ginora Sans";
+
+        
+          &:hover
+          {
+            background: #99A9FF;
+            background: -webkit-linear-gradient(to right, #99A9FF, #5CE4CF);
+            background: linear-gradient(to right, #99A9FF, #5CE4CF);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+          }
+        }
+
+        &:hover
+        {
+          background-color: rgba(48, 54, 58, 0.2);
+        }
+      }
+    }
+  }
+}
+// End investment-portfolio
+
+
+// Start Team
+.team
+{
+  position: relative;
+  margin: 11% 0;
+  .items
+  {
+    display: flex;
+    // justify-content: space-between;
+
+    .team-profile
+    {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 30px;
+
+      .profile
+      {
+        text-align: center !important;
+
+        h5
+        {
+          color: #B8B8B8;
+          font-size: 23px;
+          text-transform: capitalize;
+          margin: 20px 0;
+        }
+
+        p
+        {
+          color: #7a7474;
+          font-size: 11px;     
+          width: 100% !important;
+        }
+      }
+    }
+
+    hr
+    {
+      width: 1px;
+      height: 62em;
+      border: 0;
+      margin: 0 5%;
+      background: url(../images/sep-line.png);
+    }
+
+    .content
+    {
+      position: absolute;
+      right: -23.5%;
+      top: 30%;
+
+      a
+      {
+        font-size: 82%;
+
+        .arrow-right
+        {
+          width: 2%;
+        }
+      }
+
+      h2 
+      {
+        width: 35%;
+        margin: 20px 0;
+      }
+
+      p
+      {
+        width: 39%;
+      }
+    }
+  }
+}
+// End Team
+
+
+// Start Jobs
+.jobs
+{
+  .items
+  {
+    display: flex;
+    justify-content: space-between;
+
+    .job-posts
+    {
+      width: 69%;
+
+      .job
+      {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .job-intro
+        {
+          h3
+          {
+            width: 100%;
+            margin-bottom: 5%;
+          }
+
+          p
+          {
+            width: 100%;
+          }
+        }
+
+        a
+        {
+          margin: 3% 13% 0 0;
+        
+          .arrow-right 
+          {
+            width: 100%;
+          }
+        }
+      }
+
+      .view-link
+      {
+        font-size: 15px;
+
+        .arrow-right
+        {
+          margin-top: 7%;
+          width: 3%;
+        }
+      }
+    }
+
+    .job-category
+    {
+      h4
+      {
+        font-size: 20px;
+      }
+
+      ul
+      {
+        li
+        {
+          margin-bottom: 7%;
+          color: #B8B8B8;
+          text-transform: capitalize;
+          font-weight: 400;
+          display: flex;
+          justify-content: space-between;
+          
+          .arrow-right
+          {
+            width: 61%;
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+// End Jobs
+
+
+// Start Footer
+footer
+{
+  margin-top: 10%;
+
+  .items-top
+  {
+    display: flex;
+
+    .title-subtitle
+    {
+      flex: 2;
+
+      h2
+      {
+        width: 78%;
+        margin-top: 0;
+      }
+
+      p
+      {
+        width: 75%;
+      }
+    }
+
+    .form
+    {
+      flex: 1;
+      position: relative;
+
+      label
+      {
+        display: block;
+        color: #B8B8B8;
+        font-size: 18px;
+        margin-left: 6%;
+      }
+
+      input, textarea, button
+      {
+        background: none;
+        border: 0;
+        outline: none;
+      }
+
+      input, textarea
+      {
+        border-bottom: 2px solid #565656;
+        margin: 0 0 30px 0;
+        width: 100%;
+
+        &::after
+        {
+          content: "";
+          position: absolute;
+          width: 20%;
+          height: 5px;
+          // border: 1px solid;
+          background: linear-gradient(90deg, #99A9FF 0%, #5CE4CF 100%);
+        }
+      }
+
+      textarea
+      {
+        height: 20px;
+        resize: none;
+      }
+
+      button
+      {
+        .arrow-right
+        {
+          width: 17%;
+        }
+      }
+    }
+  }
+
+  .social-pplinks
+  {
+    display: flex;
+    justify-content: space-between;
+    margin: 7% 0;
+
+    a
+    {
+      color: #B8B8B8;
+      transition: 0.5s;
+      transform: uppercase;
+      font-weight: 400;
+      letter-spacing: 4px;
+      
+      &:hover
+      {
+        color:#99A9FF;
+      }
+    }
+
+    .social-links
+    {
+      a
+      {
+        margin-right: 25px;
+      }
+    }
+
+    .pplinks
+    {
+      a
+      {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+// End Footer
+
+
+// Start Copyright
+.copyright
+{
+  text-align: center;
+
+  p
+  {
+    text-transform: uppercase;
+    width: 100%;
+    letter-spacing: 2px;
+
+    span
+    {
+      color: #99a9ff;
+    }
+  }
+}
+// End Copyright

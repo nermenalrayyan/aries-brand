@@ -1,0 +1,242 @@
+@media screen and (max-width: 320px) {
+  @keyframes movedown {
+    from {
+      top: 47%;
+    }
+    to {
+      top: 50%;
+    }
+  }
+  header nav {
+    padding: 10px !important;
+  }
+
+  .intro h1 {
+    font-size: 2rem !important;
+    width: 9em;
+  }
+  .intro h1 span {
+    display: inline !important;
+  }
+
+  .program {
+    margin: 10% 0 20% 0;
+    height: 72vh !important;
+  }
+  .program .text-items {
+    top: 16rem !important;
+    left: 0.5rem !important;
+  }
+  .program .imgs-items img:first-of-type {
+    margin-left: 0.3rem !important;
+    width: 20.8rem !important;
+    height: 13rem !important;
+  }
+  .program .imgs-items img:last-of-type {
+    margin: 1.5rem 0 0 17.5rem !important;
+    width: 6rem !important;
+    height: 10rem !important;
+  }
+}
+@media screen and (max-width: 433px) {
+  html {
+    font-size: 12.5px;
+  }
+
+  .intro .intro-items h1 {
+    margin: 0 0 -0.33rem 0 !important;
+  }
+
+  .program .text-items {
+    top: 19.5rem;
+    left: 13rem;
+    width: 17em;
+  }
+
+  .title-subtitle .title-subtitle-items {
+    align-items: start;
+  }
+}
+@media screen and (max-width: 425px) and (min-width: 321px) {
+  header nav {
+    padding: 10px !important;
+  }
+}
+@media screen and (max-width: 575px) and (min-width: 321px) {
+  .program .text-items {
+    top: 20rem !important;
+    left: 13rem !important;
+  }
+  .program .imgs-items img:first-of-type {
+    margin-left: 0.3rem !important;
+    width: 22rem !important;
+    height: 14rem !important;
+  }
+  .program .imgs-items img:last-of-type {
+    margin: 1.6rem 0 0 20rem !important;
+    width: 6.5rem !important;
+    height: 11rem !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  header {
+    margin-top: 0;
+  }
+
+  .view-link .arrow-right {
+    width: 1em;
+  }
+}
+@media screen and (max-width: 624px) {
+  .program .program-items {
+    grid-template-columns: 1fr 60px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
+    grid-template-rows: 27px 50px 50px 20px 0 0 50px 50px 50px 50px 50px 50px;
+  }
+  .program .program-items .program-img2 {
+    width: 75% !important;
+  }
+  .program .program-items p {
+    margin: 30px 0 !important;
+  }
+  .program .program-items .view-link .arrow-right {
+    width: 20px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 625px) {
+  .program .program-items {
+    grid-template-columns: 1fr 60px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
+    grid-template-rows: 27px 50px 50px 20px 0 0 50px 50px 50px 50px 50px 50px;
+  }
+  .program .program-items .program-img2 {
+    width: 75% !important;
+  }
+  .program .program-items p {
+    margin: 30px 0 !important;
+  }
+  .program .program-items .view-link .arrow-right {
+    width: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 15px;
+  }
+
+  @keyframes movedown {
+    from {
+      top: 70%;
+    }
+    to {
+      top: 74%;
+    }
+  }
+}
+@media screen and (max-width: 990px) {
+  header .navbar {
+    position: relative;
+    align-items: center !important;
+    justify-content: space-between;
+  }
+  header .navbar.active {
+    height: 40vh;
+  }
+  header .navbar .nav-left {
+    top: 20%;
+  }
+  header .navbar .nav-left, header .navbar .nav-right {
+    display: none;
+  }
+  header .navbar .nav-left.active, header .navbar .nav-right.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /* top: 99%; */
+    left: 42%;
+  }
+  header .navbar .nav-right {
+    margin-right: 0em !important;
+  }
+
+  .view-link .arrow-right {
+    width: 1em;
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .program .program-items {
+    grid-template-columns: 1fr 86px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
+    grid-template-rows: 31px 50px 50px 18px 0 0 50px 50px 50px 50px 50px 50px;
+  }
+  .program .program-items .program-img2 {
+    width: 75% !important;
+  }
+  .program .program-items .view-link .arrow-right {
+    width: 25px;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 991px) {
+  header .nav-right {
+    margin-right: -110px !important;
+  }
+}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  html {
+    font-size: 23px;
+  }
+
+  header .nav-right {
+    margin-right: -229px !important;
+  }
+
+  .program .program-items {
+    grid-template-columns: 1fr 99px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
+    grid-template-rows: 43px 50px 50px 50px 40px 1px 50px 50px 50px 50px 50px 50px;
+  }
+  .program .program-items .program-img2 {
+    width: 75% !important;
+  }
+  .program .program-items .view-link .arrow-right {
+    width: 25px;
+  }
+}
+@media screen and (max-width: 1326px) and (min-width: 1280px) {
+  html {
+    font-size: 20px;
+  }
+
+  header .nav-right {
+    margin-right: -367px !important;
+  }
+
+  .intro .intro-items {
+    margin-top: -1rem;
+  }
+
+  .program .program-items {
+    grid-template-columns: 1fr 88px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
+    grid-template-rows: 57px 50px 50px 50px 50px 98px 50px 50px 50px 50px 50px 50px;
+  }
+  .program .program-items .text-items {
+    left: 6.7rem !important;
+  }
+}
+/* End Mobile Screens */
+/*
+bootstrap 5 responsive screen sizes:
+
+* They include x-small which is between 0 and 576px.
+
+* Small, which has the sm class infix is 576px or larger.
+
+* Medium, which has the md class infix is 768px or larger.
+
+* Large, which has the lg class infix is 992px or larger.
+
+* Extra-large, which is infixed by xl , is 1200px or larger.
+
+* Extra extra large, which is infixed by xxl , is 1400px or larger.
+*/

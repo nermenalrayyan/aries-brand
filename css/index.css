@@ -1,0 +1,36 @@
+/* Primary Font Family */
+@font-face {
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ginora Sans"),
+    url("https://fonts.cdnfonts.com/s/18654/Ginóra Sans Regular.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Ginora Sans"),
+    url("https://fonts.cdnfonts.com/s/18654/Ginóra Sans Semi Bold.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Ginora Sans"),
+    url("https://fonts.cdnfonts.com/s/18654/Ginóra Sans Bold.woff")
+      format("woff");
+}
+
+/* Secondary Font Family */
+@font-face {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gilroy-Regular"),
+    url("https://fonts.cdnfonts.com/s/16219/Gilroy-Regular.woff") format("woff");
+}

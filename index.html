@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Start Links -->
+  <!-- Start bootstrap -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  
+  <!-- Start normalize CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!--normalize يجعل الصفحة سليمة و يصلح المشاكل الموجودة فيها / رابط الموقع https://necolas.github.io/normalize.css/-->
+  
+  <!-- Start Style css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Start Links -->
+
+  <title>Aries Brand</title>
+</head>
+<body>
+  <!-- المصدر: https://www.figma.com/file/ybGaSrlxPWAPkF1FXp0M43/Aries-Brand-%26-Ui-Kit?node-id=31%3A2 -->
+  
+  <!-- Start Header -->
+  <header class="mt-5">
+    <div class="container container-xxl container-xl conatiner-lg conatiner-md conatiner-sm">
+      <nav class="navbar flex justify-between items-center py-3 px-12">
+
+        <div class="btns nav-left">
+          <a href="#">program</a>
+          <a href="#">funding</a>
+        </div>
+        
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+
+        <div class="btns nav-right">
+          <a href="#">jobs</a>
+          <a href="#">menu</a>
+        </div>
+        
+        <div class="toggleMenu" onclick="toggleMenu();"> 
+          <img src="images/Vectors/Vector.png" class="vector" alt="Vector">
+        </div>
+        
+      </nav>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Start Intro -->
+  <div class="intro">
+    <div class="container container-xxl container-xl conatiner-lg conatiner-md conatiner-sm">
+      <div class="intro-items">
+        <h1>we are here for your <span>artificial intelligence</span> startup.</h1>
+
+        <img src="images/Arrows/Arrow-down.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- End Intro -->
+
+  <!-- Start Program -->
+  <section class="program">
+    <div class="container container-xxl container-xl conatiner-lg conatiner-md conatiner-sm">
+      <div class="program-items">
+        <img class="program-img1" src="images/big-centered-image.png" alt="">
+        <img class="program-img2" src="images/small-right-image.png" alt="">
+          <!-- <div class="imgs-items">
+            
+          </div> -->
+
+        <div class="text-items">
+          <h2>building faster, <br> smarter,together.</h2>
+      
+          <p>ARIES is a part of PIXIRHY, a global venture capital firm providing multi stage investment to develop and scale our founders’ big ideas. SOSV invests in every HAX program startup with
+          follow-on through pre-iPO.</p>
+
+          <div class="view-link">
+            <a href="#" class="Primary-color">view program</a>  
+            <img src="images/Arrows/Arrow-right.png" class="arrow-right" alt="arrow-right">
+          </div>
+        </div>
+        </div>
+    </div>
+  </section>
+  <!-- End Program -->
+
+  <!-- Start Title And Sub-Title -->
+  <section class="title-subtitle">
+    <div class="container container-xxl container-xl conatiner-lg conatiner-md conatiner-sm">
+     <div class="title-subtitle-items">
+        <h2>We invest Billions <br>
+        per year into AI startups.</h2>
+  
+       <p>They are showing researches and writting regularly about the consequnces happening
+        on AI. Our unique program is designed for startups, combining hands-on help from a deeply experienced product development team and
+        a total investment package of $270,000.</p>
+     </div>
+    </div>
+  </section>
+  <!-- End Title And Sub-Title -->
+
+  <!-- Start Funding 1 -->
+  <section class="funding1">
+    <div class="container container-xxl container-xl conatiner-lg conatiner-md conatiner-sm funding1-items">
+      <h6>kawaski</h6>
+
+      <h3>corporobo design interview with ben lukas.</h3>
+
+      <p>we spoke to Robotic and sound designer Ben Lukas Boysen about the evolution of robot soundtracks and some of his top picks.</p>
+
+      <div class="view-link">
+        <a href="#" class="view-link Primary-color">View project</a>  
+        <img src="images/Arrows/Arrow-right.png" class="arrow-right" alt="arrow-right">
+      </div>
+    </div>
+  </section>
+  <!-- End Funding 1 -->
+
+  <!-- Start Funding 2 -->
+  <section class="funding2">
+    <div class="container container-xxl container-xl conatiner-lg conatiner-md conatiner-sm funding2-items">
+      <h6>roxerin</h6>
+
+      <h3>Young Minds, Experience hand & Strong Command.</h3>
+
+      <p>we spoke to Robotic and sound designer Ben Lukas Boysen about the evolution of robot soundtracks and some of his top picks.</p>
+
+      <div class="view-link">
+        <a href="#" class="Secondary-color">View project</a>  
+        <img src="images/Arrows/Arrow2.png" class="arrow-right" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- End Funding 2 -->
+
+  <hr class="hr-medium">
+
+  <!-- Start Investment-Portfolio -->
+  <section class="inve-portfolio">
+    <div class="container container-xxl container-xl conatiner-lg conatiner-md conatiner-sm inve-portfolio-items">
+      <h2>our investment portfolios</h2>
+      <ul>
+        <li><a href="#"><img src="images/Vectors/vector1.svg" alt="Vector1"> atomin</a></li>
+        <li><a href="#"><img src="images/Vectors/vector2.svg" alt="Vector2"> oracle</a></li>
+        <li><a href="#"><img src="images/Vectors/vector3.svg" alt="Vector3"> jarvice</a></li>
+        <li><a href="#"><img src="images/Vectors/vector4.svg" alt="Vector4"> raxon</a></li>
+        <li><a href="#"><img src="images/Vectors/vector5.svg" alt="Vector5"> tindo</a></li>
+        <li><a href="#"><img src="images/Vectors/vector6.svg" alt="Vector6"> kawaski</a></li>
+        <li><a href="#"><img src="images/Vectors/vector7.svg" alt="Vector7"> cypher</a></li>
+        <li><a href="#"><img src="images/Vectors/vector8.svg" alt="Vector8"> ordix</a></li>
+      </ul>
+    </div>
+  </section>
+  <!-- End Investment-Portfolio -->
+
+  <!-- Start Team -->
+  <section class="team">
+    <div class="container container-xxl container-xl conatiner-lg conatiner-md conatiner-sm items">
+      <div class="team-profile">
+        <div class="profile">
+          <img src="images/Rectangle146.png" alt="Rectangle 146">
+          <h5>edris alba</h5>
+          <p>leader</p>
+        </div>
+  
+        <div class="profile">
+          <img src="images/Rectangle144.png" alt="Rectangle 146">
+          <h5>mark rafello</h5>
+          <p>co - leader</p>
+        </div>
+  
+        <div class="profile">
+          <img src="images/Rectangle143.png" alt="Rectangle 146">
+          <h5>chris rogers</h5>
+          <p>lead marketing</p>
+        </div>
+  
+        <div class="profile">
+          <img src="images/Rectangle145.png" alt="Rectangle 146">
+          <h5>roberto simioni</h5>
+          <p>lead technician</p>
+        </div>
+      </div>
+  
+      <hr>
+
+      <div class="content">
+        <div class="view-link">
+          <a href="#" class="Primary-color">view team</a>
+          <img src="images/Arrows/Arrow-right.png" class="arrow-right" alt="">
+        </div>
+  
+        <h2>Genius <br> minds behind <br> this program <br> for you</h2>
+        
+        <p>We are a group of engineers, designers and entrepreneur s brought together to support early stage startups working on artificial intelligence.</p>
+      </div>
+    </div>
+  </section>
+  <!-- End Team -->
+
+  <hr class="hr-medium">
+
+  <!-- Start Jobs -->
+  <section class="jobs">
+    <div class="container container-xxl container-xl conatiner-lg conatiner-md conatiner-sm">
+      <h2>latest portfolio jobs.</h2>
+      <div class="items">
+        <div class="job-posts">
+          <div class="job">
+            <div class="job-intro">
+              <h6>KAWASKI</h6>
+              <h3>Sales Intern - <br> Right Hand to the COO</h3>
+              <p>Internship - Paris @agronavo - marketing</p>
+            </div>
+
+            <a href="#" class="Primary-color"><img src="images/Arrows/Arrow-right2.png" class="arrow-right" alt=""></a>
+          </div>
+  
+          <hr class="hr-small">
+  
+          <div class="job">
+            <div class="job-intro">
+              <h6>CYPHER</h6>
+              <h3>head of growth - <br> medical device startup</h3>
+              <p>ful time - remote - business develepoment</p>
+            </div>
+
+            <a href="#" class="Primary-color"><img src="images/Arrows/Arrow-right2.png" class="arrow-right" alt=""></a>
+          </div>
+  
+          <hr class="hr-small">
+  
+          <div class="job">
+            <div class="job-intro">
+              <h6>ORDIX</h6>
+              <h3>Software Developer - <br> Robot Systems</h3>
+              <p>ful time - remote - Software</p>
+            </div>
+
+            <a href="#" class="Primary-color"><img src="images/Arrows/Arrow-right2.png" class="arrow-right" alt=""></a>
+          </div>
+
+          <div class="view-link">
+            <a href="#" class="view-link Primary-color">next jobs</a>
+            <img src="images/Arrows/Arrow-right.png" class="arrow-right" alt="">
+          </div>
+        </div>
+  
+        <div class="job-category">
+          <h4>job categories</h4>
+          <ul>
+            <li>Business development
+              <a href="#" class="Primary-color"><img src="images/Arrows/Arrow-right3.png" class="arrow-right" alt=""></a>
+            </li>
+            <li>Data Science
+              <a href="#" class="Primary-color"><img src="images/Arrows/Arrow-right3.png" class="arrow-right" alt=""></a>
+            </li>
+            <li>Finance
+              <a href="#" class="Primary-color"><img src="images/Arrows/Arrow-right3.png" class="arrow-right" alt=""></a>
+            </li>
+            <li>Human Resources
+              <a href="#" class="Primary-color"><img src="images/Arrows/Arrow-right3.png" class="arrow-right" alt=""></a>
+            </li>
+            <li>Operations
+              <a href="#" class="Primary-color"><img src="images/Arrows/Arrow-right3.png" class="arrow-right" alt=""></a>
+            </li>
+            <li>Software
+              <a href="#" class="Primary-color"><img src="images/Arrows/Arrow-right3.png" class="arrow-right" alt=""></a>
+            </li>
+            <li>Marketing
+              <a href="#" class="Primary-color"><img src="images/Arrows/Arrow-right3.png" class="arrow-right" alt=""></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Start Jobs -->
+
+  <!-- Start Footer -->
+  <footer>
+    <div class="container container-xxl container-xl conatiner-lg conatiner-md conatiner-sm">
+      <div class="items-top">
+        <div class="title-subtitle">
+          <h2 class="grad-text">we help you to turn <br> ideas into reality.</h2>
+      
+          <p>if your research processes have unique features, and you are looking for an individual funding solution - we can help. </p>
+        </div>
+  
+        <div class="form">
+          <form action="">
+            <label>name *</label>
+            <input type="text" name="username">
+  
+            <label>email *</label>
+            <input type="email" name="email">
+  
+            <label>message *</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          </form>
+
+          <div class="view-link">
+            <button type="submit" class="Primary-color">get in touch</button>
+            <img src="images/Arrows/Arrow-right.png" class="arrow-right" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="social-pplinks">
+        <div class="social-links">
+          <a href="#">linkedin</a>
+          <a href="#">reddit</a>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+        </div>
+
+        <div class="pplinks">
+          <a href="#">privacy & policy</a>
+          <a href="#">cookies policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <hr class="hr-long">
+
+  <!-- Start Copyright -->
+  <div class="copyright">
+    <p>all rights reserved by <span>PIXIRHY</span></p>
+  </div>
+  <!-- End Copyright -->
+
+
+
+  <!-- Start Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Start Bootstrap -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+  
+  <!-- Start JS File -->
+  <script src="js/script.js"></script>
+</body>
+</html>

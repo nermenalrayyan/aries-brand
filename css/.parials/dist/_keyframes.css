@@ -1,0 +1,16 @@
+@keyframes movedown {
+  from {
+    top: 68%;
+  }
+  to {
+    top: 71%;
+  }
+}
+@keyframes moveright {
+  from {
+    right: 62%;
+  }
+  to {
+    right: 63%;
+  }
+}
