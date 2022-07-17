@@ -39,7 +39,6 @@
     nav
     {
       padding: 10px !important;
-      background-color: #f00;
     }
   }
   // .intro
@@ -318,6 +317,13 @@
 // Start Tablet Screen
 @media screen and (max-width: 624px) and (min-width: 321px)
 {
+  header
+  {
+    nav
+    {
+      background-color: #f00;
+    }
+  }
   .program
   {
     .program-items 

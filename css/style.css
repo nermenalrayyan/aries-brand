@@ -729,7 +729,6 @@ footer .social-pplinks .pplinks a {
   }
   header nav {
     padding: 10px !important;
-    background-color: #f00;
   }
   .intro h1 {
     font-size: 2.3rem !important;
@@ -818,6 +817,9 @@ footer .social-pplinks .pplinks a {
 }
 
 @media screen and (max-width: 624px) and (min-width: 321px) {
+  header nav {
+    background-color: #f00;
+  }
   .program .program-items {
     -ms-grid-columns: 20px 50px 1fr 1fr 1fr 5px 1fr 1fr 1fr 70px 1fr 37px;
         grid-template-columns: 20px 50px 1fr 1fr 1fr 5px 1fr 1fr 1fr 70px 1fr 37px;

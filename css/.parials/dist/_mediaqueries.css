@@ -9,7 +9,6 @@
   }
   header nav {
     padding: 10px !important;
-    background-color: #f00;
   }
 
   .intro h1 {
@@ -91,6 +90,10 @@
   }
 }
 @media screen and (max-width: 624px) and (min-width: 321px) {
+  header nav {
+    background-color: #f00;
+  }
+
   .program .program-items {
     grid-template-columns: 20px 50px 1fr 1fr 1fr 5px 1fr 1fr 1fr 70px 1fr 37px;
     grid-template-rows: 35px 50px 50px 50px 0 0 50px 50px 20px 50px 50px 50px;
