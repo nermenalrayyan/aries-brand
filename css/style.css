@@ -729,6 +729,7 @@ footer .social-pplinks .pplinks a {
   }
   header nav {
     padding: 10px !important;
+    background-color: #f00;
   }
   .intro h1 {
     font-size: 2.3rem !important;
