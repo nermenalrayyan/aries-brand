@@ -1,10 +1,10 @@
 @media screen and (max-width: 320px) {
   @keyframes movedown {
     from {
-      top: 47%;
+      top: 80%;
     }
     to {
-      top: 50%;
+      top: 84%;
     }
   }
   header nav {
@@ -12,30 +12,32 @@
   }
 
   .intro h1 {
-    font-size: 2rem !important;
-    width: 9em;
+    font-size: 2.3rem !important;
+    width: 8em;
   }
   .intro h1 span {
     display: inline !important;
   }
+  .intro img {
+    width: 0.8rem !important;
+  }
 
   .program {
     margin: 10% 0 20% 0;
-    height: 72vh !important;
   }
-  .program .text-items {
-    top: 16rem !important;
-    left: 0.5rem !important;
+  .program .program-items {
+    grid-template-columns: 20px 0 0 0 1fr 25px 40px 0 0 26px 20px 0 0;
+    grid-template-rows: 15px 50px 55px 45px 0 0 0 0 0 50px 50px 50px;
   }
-  .program .imgs-items img:first-of-type {
-    margin-left: 0.3rem !important;
-    width: 20.8rem !important;
-    height: 13rem !important;
+  .program .program-items .program-img1 {
+    grid-column: 3/8;
   }
-  .program .imgs-items img:last-of-type {
-    margin: 1.5rem 0 0 17.5rem !important;
-    width: 6rem !important;
-    height: 10rem !important;
+  .program .program-items .program-img2 {
+    grid-column: 7/11;
+    height: 105px;
+  }
+  .program .program-items .text-items p {
+    margin: 20px 0;
   }
 }
 @media screen and (max-width: 433px) {
@@ -87,18 +89,26 @@
     width: 1em;
   }
 }
-@media screen and (max-width: 624px) {
+@media screen and (max-width: 624px) and (min-width: 321px) {
   .program .program-items {
-    grid-template-columns: 1fr 60px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
-    grid-template-rows: 27px 50px 50px 20px 0 0 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 20px 50px 1fr 1fr 1fr 5px 1fr 1fr 1fr 70px 1fr 37px;
+    grid-template-rows: 35px 50px 50px 50px 0 0 50px 50px 20px 50px 50px 50px;
+  }
+  .program .program-items .program-img1 {
+    grid-column: 2/11;
   }
   .program .program-items .program-img2 {
-    width: 75% !important;
+    width: 127px !important;
+    height: 213px;
   }
-  .program .program-items p {
+  .program .program-items .text-items {
+    grid-column: 7/7;
+    grid-row: 10/10;
+  }
+  .program .program-items .text-items p {
     margin: 30px 0 !important;
   }
-  .program .program-items .view-link .arrow-right {
+  .program .program-items .text-items .view-link .arrow-right {
     width: 20px;
   }
 }
@@ -117,7 +127,7 @@
     width: 20px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 321px) {
   html {
     font-size: 15px;
   }
