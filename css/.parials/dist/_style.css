@@ -62,13 +62,23 @@ header nav .toggleMenu {
 }
 .program .program-items {
   display: grid;
-  grid-template-columns: 1fr 107px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
-  grid-template-rows: 55px 50px 50px 50px 50px 78px 50px 50px 50px 50px 50px 50px;
-  width: 100%;
+  grid-template-columns: 0.3fr 0.2fr 0.3fr 3fr 0.6fr 0.6fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.5fr 0.3fr 0.4fr;
+}
+.program .program-items .program-img1 {
+  z-index: 1;
+  grid-column: 3/6;
+  grid-row: 2/4;
+}
+.program .program-items .program-img2 {
+  z-index: 2;
+  grid-column: 5/7;
+  grid-row: 3/5;
 }
 .program .program-items .text-items {
-  grid-column: 2/7;
-  grid-row: 7/7;
+  z-index: 2;
+  grid-column: 1/5;
+  grid-row: 7/5;
 }
 .program .program-items .text-items h2 {
   font-size: 1.6rem;
@@ -78,14 +88,6 @@ header nav .toggleMenu {
 }
 .program .program-items .text-items .view-link a {
   font-size: 0.6rem;
-}
-.program .program-items .program-img1 {
-  grid-column: 3/11;
-  grid-row: 1/2;
-}
-.program .program-items .program-img2 {
-  grid-column: 13/10;
-  grid-row: 2/2;
 }
 
 .title-subtitle .title-subtitle-items {

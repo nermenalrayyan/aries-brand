@@ -34,13 +34,13 @@ body
 
 .container
 {
-  width: 1100px;
-  height: 100%;
+  // width: 1100px !important;
+  // height: 100%;
   // margin: 0 auto;
 
   margin-right: auto;
   margin-left: auto;
-
+  // padding: 0 20px;
   border: 1px solid;
 }
 
@@ -203,37 +203,37 @@ a, button, li, .view-link
 }
 
 
-.program,
-.funding1,
-.funding2
-{
-  // position: relative;
+// .program,
+// .funding1,
+// .funding2
+// {
+//   // position: relative;
 
-  // &::before
-  // {
-  //   // content: "";
-  //   // position: absolute;
-  //   // background-repeat: no-repeat;
-  //   // width: 100%;
-  //   // height: 200%;
-  //   // z-index: -1;
-  // }
+//   // &::before
+//   // {
+//   //   // content: "";
+//   //   // position: absolute;
+//   //   // background-repeat: no-repeat;
+//   //   // width: 100%;
+//   //   // height: 200%;
+//   //   // z-index: -1;
+//   // }
 
-  // &::after
-  // {
-  //   // content: "";
-  //   // position: absolute;
-  //   // background-repeat: no-repeat;
+//   // &::after
+//   // {
+//   //   // content: "";
+//   //   // position: absolute;
+//   //   // background-repeat: no-repeat;
 
-  //   // width: 100%;
-  //   // height: 100%;
-  //   // z-index: -1;
-  // }
+//   //   // width: 100%;
+//   //   // height: 100%;
+//   //   // z-index: -1;
+//   // }
 
-  .program-items,
-  .funding1-items,
-  .funding2-items
-  {
-    // position: absolute;
-  }
-}
+//   .program-items,
+//   .funding1-items,
+//   .funding2-items
+//   {
+//     // position: absolute;
+//   }
+// }

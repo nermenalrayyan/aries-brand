@@ -164,24 +164,65 @@ header
 
 
     display: grid;
-    // grid-template-columns: 4fr 1fr 16fr 1fr 4fr;
-    grid-template-columns: 1fr 107px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
-    grid-template-rows: 55px 50px 50px 50px 50px 78px 50px 50px 50px 50px 50px 50px;
+    // grid-template-columns: 1fr 107px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
+    // grid-template-rows: 55px 50px 50px 50px 50px 78px 50px 50px 50px 50px 50px 50px;
     
-    width: 100%;
+    grid-template-columns: .3fr .2fr .3fr 3fr .6fr .6fr;
+    grid-template-rows: .1fr .1fr .1fr .5fr .3fr .4fr;
+
+    // max-width: 1100px;
+    // margin: 0 auto;
+
+    // .imgs-items
+    // {
+
+
+
+    //   // max-width: 85%;
+
+    //   // grid-template: repeat(8, [row] 61px 1fr) / repeat(8, [col] 133px 1fr);
+      
+    //   // grid-template: repeat(12, [row] 30px 1fr)/repeat(12, [col] 30px 1fr);
+    
+    // }
+
+    .program-img1
+    {
+      z-index: 1;
+
+      // grid-column: 3 / 11;
+      grid-column: 3 / 6;
+      grid-row: 2 / 4;
+      
+      // height: 17em;
+      // width: 100%;
+    }
+
+    .program-img2
+    {
+      z-index: 2;
+      // grid-column: 13 / 10;
+      // grid-row: 2 / 2;
+
+      grid-column: 5 / 7;
+      grid-row: 3 / 5;
+    }
 
     .text-items
     {
+      z-index: 2;
       // position: absolute;
       // top: 12rem;
       // left: 1rem;
-
       // width: 17em;
-
       // height: 11em;
 
-      grid-column: 2 / 7;
-      grid-row: 7 / 7;
+
+      // grid-column: 2 / 7;
+      // grid-row: 7 / 7;
+
+      grid-column: 1 / 5;
+      grid-row: 7 / 5;
 
       h2
       {        
@@ -200,31 +241,6 @@ header
           font-size: 0.6rem;
         }
       }
-    }
-
-    // .imgs-items
-    // {
-
-
-
-    //   // max-width: 85%;
-
-    //   // grid-template: repeat(8, [row] 61px 1fr) / repeat(8, [col] 133px 1fr);
-      
-    //   // grid-template: repeat(12, [row] 30px 1fr)/repeat(12, [col] 30px 1fr);
-    
-    // }
-
-    .program-img1
-    {
-      grid-column: 3 / 11;
-      grid-row: 1 / 2;
-    }
-
-    .program-img2
-    {
-      grid-column: 13 / 10;
-      grid-row: 2 / 2;
     }
   }
 }
